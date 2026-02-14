@@ -19,4 +19,4 @@ def get_by_id(db: Session, model, id: int):
 
 def delete(db: Session, obj):
     db.delete(obj)
-    db.commit()
+    
