@@ -34,4 +34,4 @@ class Book(Base):
     category_id = Column(Integer, ForeignKey("categories.id"))
 
     author = relationship("Author", back_populates="books")
-    category = relationship("Category", back_populates="books")
+    category = relationship("Categor", back_populates="books")
